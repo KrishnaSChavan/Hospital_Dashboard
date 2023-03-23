@@ -17,6 +17,98 @@
                                 
                             </li>
 
+                            <!-- <li class="dropdown d-none d-lg-block">
+                <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                    Create New
+                    <i class="mdi mdi-chevron-down"></i> 
+                </a>
+                <div class="dropdown-menu">
+                    item
+                    <a href="his_admin_add_employee.php" class="dropdown-item">
+                        <i class="fe-users mr-1"></i>
+                        <span>Employee</span>
+                    </a>
+
+                    item
+                    <a href="his_admin_register_patient.php" class="dropdown-item">
+                        <i class="fe-activity mr-1"></i>
+                        <span>Patient</span>
+                    </a>
+
+                    item
+                    <a href="his_admin_add_payroll.php" class="dropdown-item">
+                        <i class="fe-layers mr-1"></i>
+                        <span>Payroll</span>
+                    </a>
+
+                    item
+                    <a href="his_admin_add_vendor.php" class="dropdown-item">
+                        <i class="fe-shopping-cart mr-1"></i>
+                        <span>Vendor</span>
+                    </a>
+
+
+                    item
+                    <a href="his_admin_add_medical_record.php" class="dropdown-item">
+                        <i class="fe-list mr-1"></i>
+                        <span>Medical Report</span>
+                    </a>
+
+                    item
+                    <a href="his_admin_lab_report.php" class="dropdown-item">
+                        <i class="fe-hard-drive mr-1"></i>
+                        <span>Laboratory Report</span>
+                    </a>
+
+                    item
+                    <a href="his_admin_surgery_records.php" class="dropdown-item">
+                        <i class="fe-anchor mr-1"></i>
+                        <span>Surgical/Theatre Report</span>
+                    </a>
+
+                    
+                    <div class="dropdown-divider"></div>
+
+                    
+                </div>
+            </li> -->
+                        <!-----567=---->
+                            <li>
+                                <a href="javascript: void(0);">
+                                    <!-- <i class="fab fa-accessible-icon "></i> -->
+                                    <i class="fe-layers mr-1"></i>
+                                    <span> Create New </span>
+                                    <span class="menu-arrow"></span>
+                                </a>
+                                <ul class="nav-second-level" aria-expanded="false">
+                                    <li>
+                                        <a href="his_admin_add_employee.php">Employee</a>
+                                    </li>
+                                    <li>
+                                        <a href="his_admin_register_patient.php">Patient</a>
+                                    </li>
+                                    <li>
+                                    <a href="his_admin_add_payroll.php" >Payroll</a>
+                                    </li>
+
+                                    <li>
+                                    <a href="his_admin_add_vendor.php">Vendor</a>
+                                    </li>
+                                    
+                                    <li>
+                                    <a href="his_admin_add_medical_record.php">Medical Report</a>
+                                    </li>
+                                    <li>
+                                    <a href="his_admin_lab_report.php">Laboratory Report</a>
+                                    </li>
+                                    <li>
+                                    <a href="his_admin_surgery_records.php">Surgical/Theatre Report</a>
+                                    </li>
+                                   
+                                </ul>
+                            </li>
+                        <!---===--->           
+
                             <li>
                                 <a href="javascript: void(0);">
                                     <i class="fab fa-accessible-icon "></i>
@@ -46,25 +138,25 @@
                             <li>
                                 <a href="javascript: void(0);">
                                     <i class="mdi mdi-doctor"></i>
-                                    <span> Employees </span>
+                                    <span> Doctors</span>
                                     <span class="menu-arrow"></span>
                                 </a>
                                 <ul class="nav-second-level" aria-expanded="false">
                                     <li>
-                                        <a href="his_admin_add_employee.php">Add Employee</a>
+                                        <a href="his_admin_add_employee.php">Add Doctor</a>
                                     </li>
                                     <li>
-                                        <a href="his_admin_view_employee.php">View Employees</a>
+                                        <a href="his_admin_view_employee.php">View Doctor</a>
                                     </li>
                                     <li>
-                                        <a href="his_admin_manage_employee.php">Manage Employees</a>
+                                        <a href="his_admin_manage_employee.php">Manage Doctor</a>
                                     </li>
                                     <hr>
                                     <li>
                                         <a href="his_admin_assaign_dept.php">Assign Department</a>
                                     </li>
                                     <li>
-                                        <a href="his_admin_transfer_employee.php">Transfer Employee</a>
+                                        <a href="his_admin_transfer_employee.php">Transfer Doctor</a>
                                     </li>
                                 </ul>
                             </li>

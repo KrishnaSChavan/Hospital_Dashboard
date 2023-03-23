@@ -78,11 +78,11 @@
                                             <thead>
                                             <tr>
                                                 <th>#</th>
-                                                <th data-toggle="true">Equipment Name</th>
-                                                <th data-hide="phone">Equipment Code</th>
-                                                <th data-hide="phone">Equipment Vendor</th>
-                                                <th data-hide="phone">Equipment Department</th>
-                                                <th data-hide="phone">Equipment Quantity</th>
+                                                <th data-toggle="true">Patient Name</th>
+                                                <th data-hide="phone">Bed Number</th>
+                                                <th data-hide="phone">Consulting Doctor</th>
+                                                <!-- <th data-hide="phone">Equipment Department</th> -->
+                                                <!-- <th data-hide="phone">Equipment Quantity</th> -->
                                                 <th data-hide="phone">Action</th>
                                             </tr>
                                             </thead>
@@ -106,8 +106,8 @@
                                                     <td><?php echo $row->eqp_name;?></td>
                                                     <td><?php echo $row->eqp_code;?></td>
                                                     <td><?php echo $row->eqp_vendor;?></td>
-                                                    <td><?php echo $row->eqp_dept;?></td>
-                                                    <td><?php echo $row->eqp_qty;?></td>
+                                                    <!----<td><php echo $row->eqp_dept;?></td>
+                                                    <td><php echo $row->eqp_qty;?></td>---->
                                                     <td>
                                                         <a href="his_admin_view_single_eqp.php?eqp_code=<?php echo $row->eqp_code;?>" class="badge badge-success"><i class="far fa-eye "></i> View</a>
                                                     </td>

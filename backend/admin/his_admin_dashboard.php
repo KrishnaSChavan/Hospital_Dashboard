@@ -192,7 +192,7 @@
                                                     $stmt->fetch();
                                                     $stmt->close();
                                                 ?>
-                                                <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $assets;?></span></h3>
+                                                <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $assets;?></span>/500</h3>
                                                 <p class="text-muted mb-1 text-truncate">Corporation Assets</p>
                                             </div>
                                         </div>
