@@ -127,7 +127,7 @@
                                                     $stmt->close();
                                                 ?>
                                                 <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $doc;?></span></h3>
-                                                <p class="text-muted mb-1 text-truncate">Hospital Employees</p>
+                                                <p class="text-muted mb-1 text-truncate">Doctors</p>
                                             </div>
                                         </div>
                                     </div> <!-- end row-->
@@ -176,7 +176,7 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="avatar-lg rounded-circle bg-soft-primary border-primary border">
-                                                <i class="mdi mdi-flask font-22 avatar-title text-primary"></i>
+                                                <i class="mdi mdi-hotel   font-22 avatar-title text-primary"></i>
                                             </div>
                                         </div>
                                         <div class="col-6">
@@ -192,8 +192,8 @@
                                                     $stmt->fetch();
                                                     $stmt->close();
                                                 ?>
-                                                <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $assets;?></span>/500</h3>
-                                                <p class="text-muted mb-1 text-truncate">Corporation Assets</p>
+                                                <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo 500-$assets;?></span></h3>
+                                                <p class="text-muted mb-1 text-truncate">Available Beds</p>
                                             </div>
                                         </div>
                                     </div> <!-- end row-->

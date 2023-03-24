@@ -113,11 +113,13 @@
                                                     <label for="inputState" class="col-form-label">Departments</label>
                                                     <select id="inputState" required="required" name="doc_dept" class="form-control">
                                                         <option>Choose</option>
-                                                        <option>Patient Registration</option>
-                                                        <option>Laboratory</option>
-                                                        <option>Pharmacy</option>
-                                                        <option>Accounting</option>
+                                                        <option>Heart</option>
+                                                        <option>Spine</option>
+                                                        <option>Orthopaedics</option>
+                                                        <option>Cancer Care</option>
                                                         <option>Surgery | Theatre</option>
+                                                        <option>Neurosciences</option>
+                                                        <option>Gastronenterology</option>
                                                     </select>
                                             </div>                                         
 

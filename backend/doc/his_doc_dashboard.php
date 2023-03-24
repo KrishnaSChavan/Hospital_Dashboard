@@ -41,8 +41,9 @@
                             <div class="col-12">
                                 <div class="page-title-box">
                                     
-                                    <h4 class="page-title">Hospital Management Information System Dashboard</h4>
+                                    <h4 class="page-title">Hospital management Dashboard</h4>
                                 </div>
+                                <br>
                             </div>
                         </div>     
                         <!-- end page title --> 
@@ -102,7 +103,7 @@
                                                     $stmt->close();
                                                 ?>
                                                 <h3 class="text-dark mt-1"><span data-plugin="counterup"><?php echo $assets;?></span></h3>
-                                                <p class="text-muted mb-1 text-truncate">Corporation Assets</p>
+                                                <p class="text-muted mb-1 text-truncate">Available Beds</p>
                                             </div>
                                         </div>
                                     </div> <!-- end row-->

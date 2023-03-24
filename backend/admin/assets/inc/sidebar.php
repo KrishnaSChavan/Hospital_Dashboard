@@ -238,7 +238,7 @@
                                     </li>
 
                                     <li>
-                                        <a href="his_admin_equipments_inventory.php">Assets</a>
+                                        <a href="his_admin_equipments_inventory.php">Beds</a>
                                     </li>
                                     
                                 </ul>

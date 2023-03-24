@@ -1,0 +1,40 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f3cf5ed;
+  }
+  
+  li {
+    float:right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #fffcfc;
+  }
+ tit {
+    top: 30%;
+
+  }
+.box { 
+
+  /* width: 300px;
+			height: 200px;
+			border: 1px solid black;
+			padding: 20px;
+			box-sizing: border-box;
+      background-color: #ffff; */
+      background-color:#fff;padding:1.5rem;-webkit-box-shadow:0 .75rem 6rem rgba(56,65,74,.03);box-shadow:0 .75rem 6rem rgba(56,65,74,.03);margin-bottom:5px;border-radius:45px;justify-items: center;
+      align-items: center;
+
+  }
